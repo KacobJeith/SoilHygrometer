@@ -19,7 +19,7 @@ void setup()
   Serial.begin(115200);
   InitializeControlHardware();
   AddOnOffControl("WaterMe",HEEP_OUTPUT,0);
-  StartHeep("SoilHygrometer", 2);
+  StartHeep(heepDeviceName, 2);
 
 }
 
